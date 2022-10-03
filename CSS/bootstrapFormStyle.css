@@ -1,0 +1,7 @@
+body{
+    margin-left: 1rem;
+}
+label{
+    display: block;
+    color: rgb(15, 16, 19);
+}

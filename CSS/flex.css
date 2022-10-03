@@ -1,0 +1,41 @@
+.container{
+    border: 0.2rem solid gold;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 90vh;
+    flex-wrap: wrap;
+    align-content: center;
+    /*directions
+    flex-direction: row-reverse;
+    flex-direction: column-reverse;
+    */
+    /*justify content
+    justify-content: start;
+    justify-content: end;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    */
+    /*alignment
+    align-items: center;
+    height: 90vh;
+    */
+
+    
+    
+}
+.box{
+    flex-basis: 25rem;/*To increase the size*/
+    flex-grow: 1;
+    flex-shrink: 2;
+    width: 5rem;
+    height: 5rem;
+    margin: 1rem;
+    background-color: blue;
+}
+
+.box1{
+    /*align-self: flex-start;*/
+}

@@ -1,0 +1,29 @@
+.container {
+  display: grid;
+  border: 3px solid gold;
+  grid-template-rows: 100px auto 100px; /*rows*/
+  grid-template-columns: 30fr 70fr; /*columns*/
+  gap: 10px; /*for row and column*/
+
+  /*  
+  grid-template: repeat(3, 100px) / repeat(2, 100px); row/columns
+   */
+  /* 
+   grid-template: repeat(3, 100px)/ 30fr 100fr; row/columns in fractions
+   */
+  /* 
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  justify-content: center;
+  height: 100vh;
+  */
+  /*
+  row-gap: 10px; only for row
+  columns-gap: 10px; only for column
+   */
+ 
+}
+.box {
+  background-color: aqua;
+}

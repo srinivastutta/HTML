@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/formStyle.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="form-group">
+      <label for="firstName">First Name</label>
+      <input id="firstName" readonly value="Srinivas" type="text" />
+    </div>
+
+    <div class="form-group">
+      <label for="lastName">Last Name</label>
+      <input id="lastName"  disabled type="text" />
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email Address</label>
+      <input placeholder="Enter Email Address" type="email" />
+    </div>
+
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input placeholder="Enter password" type="password" />
+    </div>
+
+    <div class="form-group">
+      <label for="phone">Phone Number</label>
+      <input id="phone"  maxlength="10" />
+    </div>
+
+    <div class="form-group">
+      <select>
+        <optgroup label="FrontEnd Courses">
+        <option value="">HTML</option>
+        <option value="">CSS</option>
+        <option value="">JavaScript</option>
+      </optgroup>
+        <optgroup label="BackEnd Courses">
+        <option value="">Spring Boot</option>
+        <option value="">Spring Framework</option>
+        <option value="">Java</option>
+      </optgroup>
+      </select>
+    </div>
+
+    <div>
+      <datalist id="countries">
+        <option data-value="1">Australia</option>
+        <option data-value="2">Canada</option>
+        <option data-value="3">Germany</option>
+        <option data-value="4">France</option>
+      </datalist>
+   </div>
+    
+   <div>
+    <input type="checkbox" id="FrontEnd" checked/>
+     <label for="FrontEnd">FrontEnd Courses</label>
+  </div>
+
+  <div>
+     <input type="checkbox" id="BackEnd" disabled/>
+     <label for="BackEnd">BackEnd Courses</label>
+  </div>
+
+  <div>
+     <input type="checkbox" id="Database"/>
+     <label for="Database">Database</label>
+  </div>
+
+  <div>
+    <input type="radio" name="cars" id="Luxus">
+    <label for="Luxus">Luxus</label>
+ </div>
+  <div>
+    <input type="radio" name="cars" id="Ford">
+    <label for="Ford">Ford</label>
+ </div>
+  
+ <div  class="form-group">
+    <input type="radio" name="cars" id="Maruthi" checked>
+    <label for="Maruthi">Maruthi</label>
+ </div>
+ 
+ <div  class="form-group">
+ <label for="myrange">Range</label>
+ <input type="range" name="slider" id="myrange" min="1" max="100" value="50">
+ </div>
+
+ <div class="form-group">
+  <input type="file" multiple accept="video/*">
+ </div>
+
+  <textarea cols="22" rows="3"></textarea>
+
+    <div class="form-group">
+      <label class="dob">Date Of Birth</label>
+      <input type="date" />
+    </div>
+
+    <div class="form-group">
+      <label class="country">Country</label>
+      <input type="text" list="countries"/>
+    </div>
+    
+    <button type="submit">Submit</button>
+    <button type="cancel">Cancel</button>
+  </body>
+</html>

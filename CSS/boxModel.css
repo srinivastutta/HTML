@@ -1,0 +1,33 @@
+/*Universal Selectors*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box; /*Content size will not be changed*/
+}
+
+.boxOne {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(82, 82, 244);
+  padding: 20px;
+  border: 10px solid gold;
+  margin: 10px;
+  display: inline-block;
+}
+.boxTwo {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(82, 82, 244);
+  padding: 20px;
+  border: 10px solid gold;
+  margin: 10px;
+  display: inline-block;
+}
+.boxThree {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(82, 82, 244);
+  padding: 20px;
+  border: 10px solid gold;
+  margin: 10px;
+}
